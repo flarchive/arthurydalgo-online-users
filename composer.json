@@ -1,0 +1,36 @@
+{
+  "name": "arthurydalgo/online-users",
+  "description": "Adds a list of online users.",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1."
+  },
+  "authors": [
+    {
+      "name": "ArthurYdalgo",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "arthurydalgo\\OnlineUsers\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Online Users",
+      "icon": {
+        "name": "",
+        "backgroundColor": "",
+        "color": ""
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
